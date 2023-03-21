@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: skyblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* float: right; */
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    padding:20px;
+    /* float: right; */
+    
+
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+.container .form{
+    margin: 30px;
+}
+input,#textBox{
+    width: 300px;
+    padding: 10px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+.btn{
+    width: 70px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: skyblue;
+    color: blue;
+    border: none;
+    border-radius: 30px;
+}
+.details{
+
+}
+.details h2,address,p{
+    float: left;
+    margin-right: 60px;
+    font-family: cursive;
+}
